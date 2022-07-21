@@ -1,0 +1,18 @@
+@import "../../common/colors.scss";
+
+.movie-list,
+.series-list {
+  margin: 40px 0;
+  h2 {
+    color: $font-secondary;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+}
+.movie-container,
+.series-container {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+}
