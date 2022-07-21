@@ -54,7 +54,7 @@ const movieSlice = createSlice({
       console.log("series rejected bro!!, kal aana, mast nahake ajaa");
     },
     [fetchAsyncSeries.fulfilled]: (state, { payload }) => {
-      console.log("hogyaa bhai, now whaat!!");
+      // console.log("hogyaa bhai, now whaat!!");
       return { ...state, series: payload };
     },
     [fetchAsyncMoviesOrSeries.fulfilled]: (state, { payload }) => {
