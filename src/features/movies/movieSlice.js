@@ -40,11 +40,11 @@ const movieSlice = createSlice({
   },
   extraReducers: {
     [fetchAsyncMovies.pending]: () => {
-      console.log("pending brooo!!");
+      // console.log("pending brooo!!");
     },
     [fetchAsyncMovies.fulfilled]: (state, { payload }) => {
-      console.log("hogyaa bhai, now whaat!!");
-      console.log(payload);
+      // console.log("hogyaa bhai, now whaat!!");
+      // console.log(payload);
       return { ...state, movies: payload };
     },
     [fetchAsyncMovies.rejected]: () => {

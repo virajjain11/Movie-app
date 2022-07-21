@@ -20,7 +20,7 @@ const MovieDetails = () => {
     };
   }, [dispatch, imdbId]);
   const data = useSelector(getAllSeriesOrMovies);
-  console.log(data);
+  // console.log(data);
   return (
     <div className="movie-section">
       {data.Title ? (
