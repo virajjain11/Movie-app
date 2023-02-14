@@ -11,7 +11,7 @@ pipeline {
     stage('Install dependencies') {
       
       steps {
-        pwd
+       sh 'pwd'
         sh 'npm i'
       }
     }
