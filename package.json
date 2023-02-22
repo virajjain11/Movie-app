@@ -17,13 +17,15 @@
     "react-slick": "^0.29.0",
     "serve": "^14.0.1",
     "web-vitals": "^2.1.4",
-    "sonar":"sonar-scanner"
+    "sonar-scanner": "3.1.0"
+
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+        "sonar":"sonar-scanner"
   },
   "eslintConfig": {
     "extends": [
